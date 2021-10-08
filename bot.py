@@ -11,7 +11,7 @@ bot = discord.ext.commands.Bot(command_prefix='.')
 @bot.command()
 async def b64(ctx, task, string=None):
     if ctx.author.nick == None:
-        username = bot.user
+        username = ctx.author.name
     else:
         username = ctx.author.nick
 
