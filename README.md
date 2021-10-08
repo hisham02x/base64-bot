@@ -10,4 +10,4 @@ base64 bot is a simple and easy-to-use Discord bot that allows users to encode/d
 .b64 decode <string>
 
 #To toggle list of commands:
-.b64 help```
+.b64 help
