@@ -21,8 +21,7 @@ async def b64(ctx, task, string=None):
         b64Bytes = base64.b64encode(stringBytes)
         b64String = b64Bytes.decode("ascii")
 
-        embed = discord.Embed(title=f"Encoded string for {username}:", description=b64String,
-                              colour=discord.Colour.green())
+        embed = discord.Embed(title=f"Encoded string for {username}:", description=b64String, colour=discord.Colour.green())
         await ctx.send(embed=embed)
 
     if task == 'decode':
